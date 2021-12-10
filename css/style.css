@@ -229,7 +229,7 @@ a.btn-send:hover {
 }
 /*Navigation-stylesheets-include-here*/
 .navbar-default {
-	background:rgba(248, 248, 248, 0);
+	background:rgba(0, 0, 0, 0);
 	border:rgba(248, 248, 248, 0);
 	padding:5px 5px;
 }
@@ -250,12 +250,12 @@ a.navbar-brand img {
 }
 #menu ul.nav li a {
 	font-size:15px;
-	color:rgb(250, 244, 244);
+	color:rgb(251, 255, 0);
 	background:#333;
 }
 #menu .nav > li > a {
 	
-	color: #fff;
+	color: rgb(217, 255, 0);
 }
 #menu ul.nav li a:hover, #menu ul.nav li a.active {
 	color:#e73131;
@@ -282,7 +282,7 @@ ul.nav li.active a:before {
 /*Slider-stylesheets-include-here*/
 
 	#home-carousel .item {
-	background-position: center top;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size:cover;
 	width:100%;
